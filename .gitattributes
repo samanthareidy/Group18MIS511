@@ -14,4 +14,4 @@ rows = body.find_elements_by_class_name('rt-tr-group')
 for row in rows[:10]:
     columns = row.find_elements_by_class_name('rt-td')
     team_dict[columns[1].text]= {"url":columns[1].find_element_by_tag_name('a').get_attribute('href')}
-pp.pprint(team_dict) #Pretty print--prints in alphabetical order
+pp.pprint(team_dict) ###Pretty print--prints in alphabetical order###
