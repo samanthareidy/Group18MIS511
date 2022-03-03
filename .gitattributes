@@ -1,8 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-can yall see this
-si senorita
-tacos are yummy
+####from class (nicoles notes)###
 from selenium import webdriver
 import time
 import pprint as pp
